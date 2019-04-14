@@ -23,6 +23,16 @@ h2 {
   font-size: 1.8rem !important;
 }
 
+p,
+li {
+  line-height: 1.8rem;
+}
+
+p .remark-inline-code {
+  font-size: 18px;
+  padding: 2px 0;
+}
+
 a {
   text-decoration: none;
   color: #42b993;
@@ -35,9 +45,7 @@ a:hover {
 .remark-code,
 .remark-inline-code {
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
-}
-
-code {
+  line-height: 1.4rem;
 }
 
 .remark-code {
